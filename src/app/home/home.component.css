@@ -1,8 +1,12 @@
 img{
-    width: 95%;
+    width: 100%;
 }
 .form{
   
     width: 50%;
 }
-
+.email{
+    width: 25%;
+    left: 35%;
+    top: 58%;
+}

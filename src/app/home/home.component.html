@@ -1,16 +1,27 @@
-<div class="container px-0 home pb-3 bg-white">
-    <p>Content will be here</p>
-
-    <div class="bg-white d-flex justify-content-end align-items-end h-100" >
+<div class="container px-0 home bg-white mb-2">
+    <div class="row mx-0">
+        <div class="col-md-8 px-5">
+                <div class="content my-3">
+<img src="assets/My PM Claim Landing Page (1).png" class="w-100">
+    </div>
+        </div>
+     
+<div class="col-md-4  my-3">
+       <div class="bg-white px-0 mx-0 d-flex justify-content-end align-items-end mt-2" >
         
     
-    <div class="email">
+    <div class="email position-absolute">
             <app-home-form></app-home-form>
         </div>  
-        <div class="aside mx-3 d-flex flex-column  mt-3">
-            <p class="text-uppercase bg-dark text-white pe-5">2022 prime minister and 16 others claim</p>
-            <app-side-menu class=" mx-2"></app-side-menu>
-            <a class="mt-2 text-decoration-none text-center pointer"  (click)="openVerticallyCentered()">Read More</a>
+        <div class="aside me-5 d-flex flex-column bg-light mb-4">
+            <p class="text-uppercase bg-dark text-white px-4 text-center">2022 prime minister and 16 others claim</p>
+            <app-side-menu class=" mx-2 w-100 text-center"></app-side-menu>
+            <a class="mt-1 text-decoration-none text-center pointer"  (click)="openVerticallyCentered()">Read More</a>
+            <button class="btn btn-primary">Learn More ...</button>
         </div>      
+    </div>  
+</div>
+ 
     </div>
+ 
 </div>
