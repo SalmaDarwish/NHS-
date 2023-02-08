@@ -9,7 +9,7 @@
     cursor: pointer;
     border: none;
     user-select: none;
-    min-width: 64px;
+    /* min-width: 64px; */
     line-height: 36px;
     padding: 0 16px;
     display: flex;

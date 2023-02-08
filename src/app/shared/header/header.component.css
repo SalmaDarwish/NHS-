@@ -18,10 +18,10 @@ a{
 }
 .reg{
 
-    font-size: 1.55vw;
+    font-size: 24px;
 }
 .sub-header-details{
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Poppins' , sans-serif;
 }
 ul{
@@ -80,3 +80,6 @@ li:hover a{
  .nav{
   background-color: rgba(10,73,126,255);
  }
+.PM{
+  color: rgba(10,73,126,255) ;
+}
