@@ -1,5 +1,6 @@
 img{
-    width: 100%;
+    width: 105% !important;
+    height: 615px !important;
 }
 .form{
   
@@ -7,6 +8,10 @@ img{
 }
 .email{
     width: 22%;
-    left: 37.5%;
-    top: 57%;
+    left: 38.5%;
+    top: 62%;
+}
+.learn{
+    background-color:rgba(10,73,126,255) ;
+     border: transparent solid;
 }

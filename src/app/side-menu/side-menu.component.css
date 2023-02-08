@@ -10,12 +10,17 @@
     border: none;
     user-select: none;
     /* min-width: 64px; */
-    line-height: 36px;
+    /* line-height: 36px; */
     padding: 0 16px;
     display: flex;
     align-items: center;
     flex-direction: row;
     flex: 1;
+    font-size: 14px;
+  }
+  .small{
+    font-size: 14px;
+    line-height: 1;
   }
 
   /* .example-menu-item:hover {
