@@ -1,6 +1,14 @@
-<section class=" pb-1">
+<div class="container">
+<app-header></app-header>
+  <div class="main p-3 d-flex bg-white justify-content-between gap-5">
+    <section class="home">
+      <router-outlet></router-outlet>
+    </section>
+    <aside class="mt-3 me-3">
+<app-side-menu> </app-side-menu>
+    </aside>
+   
+  </div>
+  <app-footer></app-footer>
 
-      <app-header></app-header>
-    <router-outlet></router-outlet>
-    <app-footer></app-footer>
-</section>
+</div>

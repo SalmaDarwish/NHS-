@@ -1,6 +1,10 @@
 .example-menu {
     display: inline-flex;
     flex-direction: column;
+    min-width: 289px;
+    max-width: 364px;
+
+
    
   }
   
@@ -30,4 +34,9 @@
   /* .example-menu-item:active {
     background-color: rgb(170, 170, 170);
   } */
-  
+  .small{
+    font-size: 15px;
+  }
+  button{
+    background-color: #0a497e;
+  }
