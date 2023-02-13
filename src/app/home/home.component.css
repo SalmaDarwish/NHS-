@@ -7,11 +7,14 @@ img{
     width: 50%;
 }
 .email{
-    width: 22%;
-    left: 38.5%;
-    top: 61%;
+    width: 375px;
+    bottom: 165px;
+    right: 625px;
 }
 .learn{
     background-color:rgba(10,73,126,255) ;
      border: transparent solid;
+}
+.aside{
+    max-width: 350px;
 }
