@@ -3,7 +3,8 @@
     flex-direction: column;
     min-width: 289px;
     max-width: 320px;
-    border-bottom-color: transparent !important;
+    background-color: #eef2f6
+    ;
 
 
    
@@ -36,7 +37,7 @@
     background-color: rgb(170, 170, 170);
   } */
   .small{
-    font-size: 13px;
+    font-size: 14px;
   }
   button{
     background-color: rgb(66, 133, 244)
@@ -44,4 +45,8 @@
   .xsmall{
     font-size: 12px;
     line-height: 1.1;
+  }
+  .side-title{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
   }
