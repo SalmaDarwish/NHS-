@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeFormComponent } from './home-form/home-form.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { ReadMoreModalComponent } from './read-more-modal/read-more-modal.component';
+import { AspirationComponent } from './aspiration/aspiration.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ReadMoreModalComponent } from './read-more-modal/read-more-modal.compon
     FooterComponent,
     HomeFormComponent,
     SideMenuComponent,
-    ReadMoreModalComponent
+    ReadMoreModalComponent,
+    AspirationComponent
   ],
   imports: [
     BrowserModule,
