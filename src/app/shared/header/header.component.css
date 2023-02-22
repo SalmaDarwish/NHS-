@@ -52,7 +52,7 @@ li:hover a{
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 320px;    
+    min-width: 470px;    
     z-index: 1;
     border: black solid 0.25px;
   }
