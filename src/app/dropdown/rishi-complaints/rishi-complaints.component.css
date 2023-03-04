@@ -1,0 +1,32 @@
+img{
+    width: 102% !important;
+    height: 588px !important;
+    margin-top: 13px !important;
+}
+.form{
+  
+    width: 50%;
+}
+.email{
+    width: 375px;
+    bottom: 165px;
+    right: 625px;
+}
+.learn{
+    background-color:rgba(10,73,126,255) ;
+     border: transparent solid;
+}
+.aside{
+    max-width: 350px;
+}
+section .content {
+    height: 100%;
+  }
+  section .content .web-image img {
+    width: 100%;
+  }
+  section .content .email {
+    right: 1.5rem;
+    bottom: 4.5rem;
+  }
+  

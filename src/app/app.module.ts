@@ -11,6 +11,18 @@ import { HomeFormComponent } from './home-form/home-form.component';
 import { SideMenuComponent } from './side-menu/side-menu.component';
 import { ReadMoreModalComponent } from './read-more-modal/read-more-modal.component';
 import { AspirationComponent } from './aspiration/aspiration.component';
+import { RishiComplaintsComponent } from './dropdown/rishi-complaints/rishi-complaints.component';
+import { SecretWhistleblowerComponent } from './dropdown/secret-whistleblower/secret-whistleblower.component';
+import { BarcleyPlcComponent } from './dropdown/barcley-plc/barcley-plc.component';
+import { BarclaysLegalRightsComponent } from './dropdown/barclays-legal-rights/barclays-legal-rights.component';
+import { BuyEONComponent } from './dropdown/buy-eon/buy-eon.component';
+import { EONUKComponent } from './dropdown/eon-uk/eon-uk.component';
+import { GovernmentScamsComponent } from './dropdown/government-scams/government-scams.component';
+import { HmctsComponent } from './dropdown/hmcts/hmcts.component';
+import { NhsScamsComponent } from './dropdown/nhs-scams/nhs-scams.component';
+import { ProbonoBarristerComponent } from './dropdown/probono-barrister/probono-barrister.component';
+import { VolenteerLeafletComponent } from './dropdown/volenteer-leaflet/volenteer-leaflet.component';
+import { SocialMediaComponent } from './dropdown/social-media/social-media.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +33,19 @@ import { AspirationComponent } from './aspiration/aspiration.component';
     HomeFormComponent,
     SideMenuComponent,
     ReadMoreModalComponent,
-    AspirationComponent
+    AspirationComponent,
+    RishiComplaintsComponent,
+    SecretWhistleblowerComponent,
+    BarcleyPlcComponent,
+    BarclaysLegalRightsComponent,
+    BuyEONComponent,
+    EONUKComponent,
+    GovernmentScamsComponent,
+    HmctsComponent,
+    NhsScamsComponent,
+    ProbonoBarristerComponent,
+    VolenteerLeafletComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule,
