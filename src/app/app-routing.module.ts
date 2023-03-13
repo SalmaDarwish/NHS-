@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AspirationComponent } from './aspiration/aspiration.component';
+import { ComplaintsComponent } from './complaints/complaints.component';
 import { BarclaysLegalRightsComponent } from './dropdown/barclays-legal-rights/barclays-legal-rights.component';
 import { BarcleyPlcComponent } from './dropdown/barcley-plc/barcley-plc.component';
 import { BuyEONComponent } from './dropdown/buy-eon/buy-eon.component';
+import { ChangeChampionsLitigationTeamComponent } from './dropdown/change-champions-litigation-team/change-champions-litigation-team.component';
 import { EONUKComponent } from './dropdown/eon-uk/eon-uk.component';
 import { GovernmentScamsComponent } from './dropdown/government-scams/government-scams.component';
+import { HMCTSGroupClaimComponent } from './dropdown/hmcts-group-claim/hmcts-group-claim.component';
 import { HmctsComponent } from './dropdown/hmcts/hmcts.component';
+import { NHSGroupClaimComponent } from './dropdown/nhs-group-claim/nhs-group-claim.component';
 import { NhsScamsComponent } from './dropdown/nhs-scams/nhs-scams.component';
 import { ProbonoBarristerComponent } from './dropdown/probono-barrister/probono-barrister.component';
 import { RishiComplaintsComponent } from './dropdown/rishi-complaints/rishi-complaints.component';
@@ -31,6 +35,10 @@ const routes: Routes = [
   {path:"probono-barrister",component:ProbonoBarristerComponent},
   {path:"volenteer-leaflet",component:VolenteerLeafletComponent},
   {path:"social-media",component:SocialMediaComponent},
+  {path:"Change-Champions-Litigation-Team",component:ChangeChampionsLitigationTeamComponent},
+  {path:"complaints",component:ComplaintsComponent},
+  {path:"hmcts-group-claim",component:HMCTSGroupClaimComponent},
+  {path:"nhs-group-claim",component:NHSGroupClaimComponent},
 
 
 ];

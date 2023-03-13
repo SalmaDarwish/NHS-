@@ -23,6 +23,10 @@ import { NhsScamsComponent } from './dropdown/nhs-scams/nhs-scams.component';
 import { ProbonoBarristerComponent } from './dropdown/probono-barrister/probono-barrister.component';
 import { VolenteerLeafletComponent } from './dropdown/volenteer-leaflet/volenteer-leaflet.component';
 import { SocialMediaComponent } from './dropdown/social-media/social-media.component';
+import { ChangeChampionsLitigationTeamComponent } from './dropdown/change-champions-litigation-team/change-champions-litigation-team.component';
+import { ComplaintsComponent } from './complaints/complaints.component';
+import { HMCTSGroupClaimComponent } from './dropdown/hmcts-group-claim/hmcts-group-claim.component';
+import { NHSGroupClaimComponent } from './dropdown/nhs-group-claim/nhs-group-claim.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +49,11 @@ import { SocialMediaComponent } from './dropdown/social-media/social-media.compo
     NhsScamsComponent,
     ProbonoBarristerComponent,
     VolenteerLeafletComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    ChangeChampionsLitigationTeamComponent,
+    ComplaintsComponent,
+    HMCTSGroupClaimComponent,
+    NHSGroupClaimComponent
   ],
   imports: [
     BrowserModule,
